@@ -10,7 +10,7 @@ router.get('/', (req, res) =>{
 //show
 
 router.get('/:id', (req, res) =>{
-    res.send(`Dettagli del post con id ${req.params.id}`
+    res.send(`Dettagli del post con id ${req.params.id}`)
 });
 
 //store
